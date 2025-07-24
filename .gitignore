@@ -1,0 +1,45 @@
+# Ignora a pasta .vs (Visual Studio)
+.vs/
+
+# Ignora arquivos de build e diretórios
+bin/
+obj/
+
+# Ignora arquivos temporários do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignora pacotes NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de configuração local
+appsettings.Development.json
+
+# Ignora arquivos gerados por testes
+TestResults/
+
+# Ignora diretório de publicação
+publish/
+
+# Ignora arquivos de backup
+*.bak
+
+# Ignora diretório de dependências (Node.js, caso exista)
+node_modules/
+
+# Ignora arquivos temporários de sistema
+*.tmp
+*.temp
+
+# Ignora arquivos de cache do macOS
+.DS_Store
+
+# Ignora arquivos de cache do Windows
+Thumbs.db

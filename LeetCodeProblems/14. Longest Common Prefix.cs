@@ -1,6 +1,5 @@
 public class Solution {
-    public string LongestCommonPrefix(string[] words) 
-    {
+    public string LongestCommonPrefix(string[] words) {
         // Edge case: if the array is empty, return an empty string
         if (words.Length == 0) return "";
 
@@ -8,12 +7,10 @@ public class Solution {
         string commonPrefix = words[0];
 
         // Loop through each word in the array
-        foreach (string word in words)
-        {
+        foreach (string word in words) {
             // While the current word does not start with the current prefix,
             // shorten the prefix by removing the last character
-            while (!word.StartsWith(commonPrefix))
-            {
+            while (!word.StartsWith(commonPrefix)) {
                 // Remove the last character from the prefix
                 commonPrefix = commonPrefix.Substring(0, commonPrefix.Length - 1);
 
