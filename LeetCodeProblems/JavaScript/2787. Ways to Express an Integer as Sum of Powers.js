@@ -22,9 +22,7 @@ var numberOfWays = function (n, x) {
             // Include current number if possible: add ways to reach (j - val)
             if (j >= val) {
                 dp[i][j] = (dp[i][j] + dp[i - 1][j - val]) % MOD;
-            } else {
-                dp[i][j] = dp[i][j] % MOD;
-            }
+            } 
         }
     }
 
