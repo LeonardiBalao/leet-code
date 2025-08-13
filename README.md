@@ -52,6 +52,7 @@ LeetCodeProblems/
 │   ├── 1013. Partition Array Into Three Parts With Equal Sum.js
 │   ├── 2126. Destroying Asteroids.js
 │   └── 2294. Partition Array Such That Maximum Difference Is K.js
+│   ├── 238. Product of Array Except Self.js
 │
 └── Topics/                       # Algorithm patterns and techniques
     ├── Greedy/                   # Greedy algorithm implementations (4 solutions)
@@ -94,6 +95,7 @@ LeetCodeProblems/
 | Partition Array Into Three Parts With Equal Sum | #1013 | Easy | JavaScript | Array, Two Pointers |
 | Destroying Asteroids | #2126 | Medium | JavaScript | Greedy, Sorting |
 | Partition Array Such That Maximum Difference Is K | #2294 | Medium | JavaScript | Greedy, Sorting |
+| Product of Array Except Self | #238 | Medium | JavaScript | Prefix Product, Suffix Product, Array |
 
 ### 🌳 Binary Trees
 | Problem | Number | Difficulty | Language | Key Concepts |
