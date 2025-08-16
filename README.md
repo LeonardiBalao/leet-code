@@ -14,7 +14,7 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 
 | Metric | Value |
 |--------|-------|
-| **Total Problems Solved** | 53+ |
+| **Total Problems Solved** | 60+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
@@ -37,7 +37,7 @@ LeetCodeProblems/
 │   ├── 121. Best Time to Buy and Sell Stock.cs
 │   └── ... (26+ more solutions)
 │
-├── JavaScript/                   # JavaScript implementations (15 problems)
+├── JavaScript/                   # JavaScript implementations (26 problems)
 │   ├── 3. Longest Substring Without Repeating Characters.js
 │   ├── 5. Longest Palindromic Substring.js
 │   ├── 14. Longest Common Prefix.js
@@ -45,14 +45,25 @@ LeetCodeProblems/
 │   ├── 49. Group Anagrams.js
 │   ├── 53. Maximum Subarray.js
 │   ├── 54. Spiral Matrix.js
+│   ├── 55. Jump Game.js
+│   ├── 70. Climbing Stairs.js
+│   ├── 128. Longest Consecutive Sequence.js
+│   ├── 200. Number of Islands.js
+│   ├── 215. Kth Largest Element in an Array.js
+│   ├── 238. Product of Array Except Self.js
+│   ├── 326. Power of Three.js
+│   ├── 342. Power of Four.js
+│   ├── 424. Longest Repeating Character Replacement.js
 │   ├── 682. Baseball Game.js
+│   ├── 697. Degree of an Array.js
 │   ├── 869. Reordered Power of 2.js
 │   ├── 917. Reverse Only Letters.js
 │   ├── 997. Find the Town Judge.js
 │   ├── 1013. Partition Array Into Three Parts With Equal Sum.js
+│   ├── 1323. Maximum 69 Number.js
 │   ├── 2126. Destroying Asteroids.js
-│   └── 2294. Partition Array Such That Maximum Difference Is K.js
-│   ├── 238. Product of Array Except Self.js
+│   ├── 2294. Partition Array Such That Maximum Difference Is K.js
+│   └── 2787. Ways to Express an Integer as Sum of Powers.js
 │
 └── Topics/                       # Algorithm patterns and techniques
     ├── Greedy/                   # Greedy algorithm implementations (4 solutions)
@@ -83,19 +94,28 @@ LeetCodeProblems/
 | Group Anagrams | #49 | Medium | JavaScript | Hash Map, String Sorting |
 | Maximum Subarray | #53 | Medium | JavaScript | Dynamic Programming, Kadane's Algorithm |
 | Spiral Matrix | #54 | Medium | JavaScript | Matrix Traversal, Simulation |
+| Jump Game | #55 | Medium | JavaScript | Greedy, Array |
 | Length of Last Word | #58 | Easy | C# | String Processing |
 | Plus One | #66 | Easy | C# | Array Manipulation |
 | Add Binary | #67 | Easy | C# | String, Bit Manipulation |
+| Climbing Stairs | #70 | Easy | C#, JavaScript | Dynamic Programming |
 | Valid Palindrome | #125 | Easy | C# | Two Pointers, String |
+| Longest Consecutive Sequence | #128 | Medium | JavaScript | Hash Set, Array |
+| Kth Largest Element in an Array | #215 | Medium | JavaScript | Heap, Quick Select |
+| Product of Array Except Self | #238 | Medium | JavaScript | Prefix Product, Suffix Product, Array |
+| Power of Three | #326 | Easy | JavaScript | Math, Recursion |
+| Power of Four | #342 | Easy | JavaScript | Math, Bit Manipulation |
+| Longest Repeating Character Replacement | #424 | Medium | JavaScript | Sliding Window, Hash Map |
 | Baseball Game | #682 | Easy | JavaScript | Stack, Array |
 | Degree of an Array | #697 | Easy | JavaScript | Hash Map, Array |
 | Reordered Power of 2 | #869 | Medium | JavaScript | Math, Combinatorics |
 | Reverse Only Letters | #917 | Easy | JavaScript | Two Pointers, String |
 | Find the Town Judge | #997 | Easy | JavaScript | Graph Theory, Array |
 | Partition Array Into Three Parts With Equal Sum | #1013 | Easy | JavaScript | Array, Two Pointers |
+| Maximum 69 Number | #1323 | Easy | JavaScript | String, Greedy |
 | Destroying Asteroids | #2126 | Medium | JavaScript | Greedy, Sorting |
 | Partition Array Such That Maximum Difference Is K | #2294 | Medium | JavaScript | Greedy, Sorting |
-| Product of Array Except Self | #238 | Medium | JavaScript | Prefix Product, Suffix Product, Array |
+| Ways to Express an Integer as Sum of Powers | #2787 | Medium | JavaScript | Dynamic Programming, Math |
 
 ### 🌳 Binary Trees
 | Problem | Number | Difficulty | Language | Key Concepts |
@@ -115,6 +135,11 @@ LeetCodeProblems/
 | Merge Two Sorted Lists | #21 | Easy | C# | Merge, Recursion |
 | Linked List Cycle | #141 | Easy | C# | Floyd's Algorithm |
 | Intersection of Two Linked Lists | #160 | Easy | C# | Two Pointers |
+
+### 🌐 Graph Theory & DFS/BFS
+| Problem | Number | Difficulty | Language | Key Concepts |
+|---------|--------|------------|----------|--------------|
+| Number of Islands | #200 | Medium | JavaScript | DFS, BFS, Graph |
 
 ### 🧮 Mathematical & Logic
 | Problem | Number | Difficulty | Language | Key Concepts |
@@ -241,20 +266,21 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 35+ | 🟢 **66%** | Strong Foundation |
-| Medium | 18+ | 🟡 **34%** | Growing Expertise |
+| Easy | 41+ | 🟢 **68%** | Strong Foundation |
+| Medium | 19+ | 🟡 **32%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery
 | Topic | Problems Solved | Proficiency |
 |-------|----------------|-------------|
-| Arrays & Strings | 23+ | 🟢 Advanced |
+| Arrays & Strings | 31+ | 🟢 Advanced |
 | Binary Trees | 8+ | 🟢 Advanced |
 | Linked Lists | 3+ | 🟡 Intermediate |
-| Hash Tables | 8+ | 🟢 Advanced |
-| Dynamic Programming | 6+ | 🟡 Intermediate |
-| Mathematical | 7+ | 🟢 Advanced |
-| Greedy Algorithms | 4+ | 🟡 Intermediate |
+| Graph Theory | 1+ | 🔵 Beginner |
+| Hash Tables | 10+ | 🟢 Advanced |
+| Dynamic Programming | 8+ | 🟡 Intermediate |
+| Mathematical | 9+ | 🟢 Advanced |
+| Greedy Algorithms | 6+ | 🟡 Intermediate |
 | Combinatorics | 1+ | 🔵 Beginner |
 
 ---
