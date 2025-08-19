@@ -12,6 +12,7 @@ var maxVowels = function (s, k) {
         }
     }
     maxCount = count;
+    if (count === k) return k; // Early termination if all are vowels
 
     // Slide the window across the string
     for (let i = k; i < s.length; i++) {
