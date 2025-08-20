@@ -14,7 +14,7 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 
 | Metric | Value |
 |--------|-------|
-| **Total Problems Solved** | 60+ |
+| **Total Problems Solved** | 65+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
@@ -37,7 +37,7 @@ LeetCodeProblems/
 │   ├── 121. Best Time to Buy and Sell Stock.cs
 │   └── ... (26+ more solutions)
 │
-├── JavaScript/                   # JavaScript implementations (26 problems)
+├── JavaScript/                   # JavaScript implementations (31 problems)
 │   ├── 3. Longest Substring Without Repeating Characters.js
 │   ├── 5. Longest Palindromic Substring.js
 │   ├── 14. Longest Common Prefix.js
@@ -54,13 +54,18 @@ LeetCodeProblems/
 │   ├── 326. Power of Three.js
 │   ├── 342. Power of Four.js
 │   ├── 424. Longest Repeating Character Replacement.js
+│   ├── 438. Find All Anagrams in a String.js
 │   ├── 682. Baseball Game.js
 │   ├── 697. Degree of an Array.js
 │   ├── 869. Reordered Power of 2.js
+│   ├── 875. Koko Eating Bananas.js
 │   ├── 917. Reverse Only Letters.js
 │   ├── 997. Find the Town Judge.js
 │   ├── 1013. Partition Array Into Three Parts With Equal Sum.js
+│   ├── 1277. Count Square Submatrices with All Ones.js
 │   ├── 1323. Maximum 69 Number.js
+│   ├── 1456. Maximum Number of Vowels in a Substring of Given Length.js
+│   ├── 1498. Number of Subsequences That Satisfy the Given Sum Condition.js
 │   ├── 2126. Destroying Asteroids.js
 │   ├── 2294. Partition Array Such That Maximum Difference Is K.js
 │   └── 2787. Ways to Express an Integer as Sum of Powers.js
@@ -106,13 +111,18 @@ LeetCodeProblems/
 | Power of Three | #326 | Easy | JavaScript | Math, Recursion |
 | Power of Four | #342 | Easy | JavaScript | Math, Bit Manipulation |
 | Longest Repeating Character Replacement | #424 | Medium | JavaScript | Sliding Window, Hash Map |
+| Find All Anagrams in a String | #438 | Medium | JavaScript | Sliding Window, Hash Map |
 | Baseball Game | #682 | Easy | JavaScript | Stack, Array |
 | Degree of an Array | #697 | Easy | JavaScript | Hash Map, Array |
+| Koko Eating Bananas | #875 | Medium | JavaScript | Binary Search, Array |
 | Reordered Power of 2 | #869 | Medium | JavaScript | Math, Combinatorics |
 | Reverse Only Letters | #917 | Easy | JavaScript | Two Pointers, String |
 | Find the Town Judge | #997 | Easy | JavaScript | Graph Theory, Array |
 | Partition Array Into Three Parts With Equal Sum | #1013 | Easy | JavaScript | Array, Two Pointers |
+| Count Square Submatrices with All Ones | #1277 | Medium | JavaScript | Dynamic Programming, Matrix |
 | Maximum 69 Number | #1323 | Easy | JavaScript | String, Greedy |
+| Maximum Number of Vowels in a Substring of Given Length | #1456 | Medium | JavaScript | Sliding Window, String |
+| Number of Subsequences That Satisfy the Given Sum Condition | #1498 | Medium | JavaScript | Two Pointers, Binary Search |
 | Destroying Asteroids | #2126 | Medium | JavaScript | Greedy, Sorting |
 | Partition Array Such That Maximum Difference Is K | #2294 | Medium | JavaScript | Greedy, Sorting |
 | Ways to Express an Integer as Sum of Powers | #2787 | Medium | JavaScript | Dynamic Programming, Math |
@@ -266,21 +276,23 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 41+ | 🟢 **68%** | Strong Foundation |
-| Medium | 19+ | 🟡 **32%** | Growing Expertise |
+| Easy | 44+ | 🟢 **68%** | Strong Foundation |
+| Medium | 21+ | 🟡 **32%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery
 | Topic | Problems Solved | Proficiency |
 |-------|----------------|-------------|
-| Arrays & Strings | 31+ | 🟢 Advanced |
+| Arrays & Strings | 36+ | 🟢 Advanced |
 | Binary Trees | 8+ | 🟢 Advanced |
 | Linked Lists | 3+ | 🟡 Intermediate |
 | Graph Theory | 1+ | 🔵 Beginner |
-| Hash Tables | 10+ | 🟢 Advanced |
-| Dynamic Programming | 8+ | 🟡 Intermediate |
+| Hash Tables | 12+ | 🟢 Advanced |
+| Dynamic Programming | 9+ | 🟡 Intermediate |
 | Mathematical | 9+ | 🟢 Advanced |
-| Greedy Algorithms | 6+ | 🟡 Intermediate |
+| Greedy Algorithms | 7+ | 🟡 Intermediate |
+| Sliding Window | 4+ | 🟡 Intermediate |
+| Binary Search | 3+ | 🟡 Intermediate |
 | Combinatorics | 1+ | 🔵 Beginner |
 
 ---
