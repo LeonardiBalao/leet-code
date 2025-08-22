@@ -14,7 +14,7 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 
 | Metric | Value |
 |--------|-------|
-| **Total Problems Solved** | 65+ |
+| **Total Problems Solved** | 67+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
@@ -37,9 +37,11 @@ LeetCodeProblems/
 │   ├── 121. Best Time to Buy and Sell Stock.cs
 │   └── ... (26+ more solutions)
 │
-├── JavaScript/                   # JavaScript implementations (31 problems)
+├── JavaScript/                   # JavaScript implementations (33 problems)
+│   ├── 1. Two Sum.js
 │   ├── 3. Longest Substring Without Repeating Characters.js
 │   ├── 5. Longest Palindromic Substring.js
+│   ├── 9. Palindrome Number.js
 │   ├── 14. Longest Common Prefix.js
 │   ├── 34. Find First and Last Position of Element in Sorted Array.js
 │   ├── 49. Group Anagrams.js
@@ -88,7 +90,7 @@ LeetCodeProblems/
 ### 📋 Arrays & String Manipulation
 | Problem | Number | Difficulty | Language | Key Concepts |
 |---------|--------|------------|----------|--------------|
-| Two Sum | #1 | Easy | C# | Hash Table, Array |
+| Two Sum | #1 | Easy | C#, JavaScript | Hash Table, Array |
 | Longest Substring Without Repeating Characters | #3 | Medium | JavaScript | Sliding Window, Hash Set |
 | Longest Palindromic Substring | #5 | Medium | JavaScript | Dynamic Programming, String |
 | Longest Common Prefix | #14 | Easy | C#, JavaScript | String Processing |
@@ -154,7 +156,7 @@ LeetCodeProblems/
 ### 🧮 Mathematical & Logic
 | Problem | Number | Difficulty | Language | Key Concepts |
 |---------|--------|------------|----------|--------------|
-| Palindrome Number | #9 | Easy | C# | Math, String |
+| Palindrome Number | #9 | Easy | C#, JavaScript | Math, String |
 | Roman to Integer | #13 | Easy | C# | Hash Table, String |
 | Valid Parentheses | #20 | Easy | C# | Stack |
 | Sqrt(x) | #69 | Easy | C# | Binary Search, Math |
@@ -276,20 +278,20 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 44+ | 🟢 **68%** | Strong Foundation |
-| Medium | 21+ | 🟡 **32%** | Growing Expertise |
+| Easy | 46+ | 🟢 **69%** | Strong Foundation |
+| Medium | 21+ | 🟡 **31%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery
 | Topic | Problems Solved | Proficiency |
 |-------|----------------|-------------|
-| Arrays & Strings | 36+ | 🟢 Advanced |
+| Arrays & Strings | 38+ | 🟢 Advanced |
 | Binary Trees | 8+ | 🟢 Advanced |
 | Linked Lists | 3+ | 🟡 Intermediate |
 | Graph Theory | 1+ | 🔵 Beginner |
-| Hash Tables | 12+ | 🟢 Advanced |
+| Hash Tables | 13+ | 🟢 Advanced |
 | Dynamic Programming | 9+ | 🟡 Intermediate |
-| Mathematical | 9+ | 🟢 Advanced |
+| Mathematical | 10+ | 🟢 Advanced |
 | Greedy Algorithms | 7+ | 🟡 Intermediate |
 | Sliding Window | 4+ | 🟡 Intermediate |
 | Binary Search | 3+ | 🟡 Intermediate |
