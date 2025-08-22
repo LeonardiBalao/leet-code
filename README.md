@@ -14,7 +14,7 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 
 | Metric | Value |
 |--------|-------|
-| **Total Problems Solved** | 67+ |
+| **Total Problems Solved** | 69+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
@@ -37,8 +37,9 @@ LeetCodeProblems/
 │   ├── 121. Best Time to Buy and Sell Stock.cs
 │   └── ... (26+ more solutions)
 │
-├── JavaScript/                   # JavaScript implementations (33 problems)
+├── JavaScript/                   # JavaScript implementations (35 problems)
 │   ├── 1. Two Sum.js
+│   ├── 2. Add Two Numbers.js
 │   ├── 3. Longest Substring Without Repeating Characters.js
 │   ├── 5. Longest Palindromic Substring.js
 │   ├── 9. Palindrome Number.js
@@ -70,7 +71,8 @@ LeetCodeProblems/
 │   ├── 1498. Number of Subsequences That Satisfy the Given Sum Condition.js
 │   ├── 2126. Destroying Asteroids.js
 │   ├── 2294. Partition Array Such That Maximum Difference Is K.js
-│   └── 2787. Ways to Express an Integer as Sum of Powers.js
+│   ├── 2787. Ways to Express an Integer as Sum of Powers.js
+│   └── 3195. Find the Minimum Area to Cover All Ones I.js
 │
 └── Topics/                       # Algorithm patterns and techniques
     ├── Greedy/                   # Greedy algorithm implementations (4 solutions)
@@ -128,6 +130,7 @@ LeetCodeProblems/
 | Destroying Asteroids | #2126 | Medium | JavaScript | Greedy, Sorting |
 | Partition Array Such That Maximum Difference Is K | #2294 | Medium | JavaScript | Greedy, Sorting |
 | Ways to Express an Integer as Sum of Powers | #2787 | Medium | JavaScript | Dynamic Programming, Math |
+| Find the Minimum Area to Cover All Ones I | #3195 | Medium | JavaScript | Matrix, Array |
 
 ### 🌳 Binary Trees
 | Problem | Number | Difficulty | Language | Key Concepts |
@@ -144,6 +147,7 @@ LeetCodeProblems/
 ### 🔗 Linked Lists
 | Problem | Number | Difficulty | Language | Key Concepts |
 |---------|--------|------------|----------|--------------|
+| Add Two Numbers | #2 | Medium | JavaScript | Linked List, Math |
 | Merge Two Sorted Lists | #21 | Easy | C# | Merge, Recursion |
 | Linked List Cycle | #141 | Easy | C# | Floyd's Algorithm |
 | Intersection of Two Linked Lists | #160 | Easy | C# | Two Pointers |
@@ -278,16 +282,16 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 46+ | 🟢 **69%** | Strong Foundation |
-| Medium | 21+ | 🟡 **31%** | Growing Expertise |
+| Easy | 46+ | 🟢 **67%** | Strong Foundation |
+| Medium | 23+ | 🟡 **33%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery
 | Topic | Problems Solved | Proficiency |
 |-------|----------------|-------------|
-| Arrays & Strings | 38+ | 🟢 Advanced |
+| Arrays & Strings | 40+ | 🟢 Advanced |
 | Binary Trees | 8+ | 🟢 Advanced |
-| Linked Lists | 3+ | 🟡 Intermediate |
+| Linked Lists | 4+ | 🟡 Intermediate |
 | Graph Theory | 1+ | 🔵 Beginner |
 | Hash Tables | 13+ | 🟢 Advanced |
 | Dynamic Programming | 9+ | 🟡 Intermediate |
@@ -295,6 +299,7 @@ private void InorderHelper(TreeNode node, IList<int> result)
 | Greedy Algorithms | 7+ | 🟡 Intermediate |
 | Sliding Window | 4+ | 🟡 Intermediate |
 | Binary Search | 3+ | 🟡 Intermediate |
+| Matrix Operations | 2+ | 🔵 Beginner |
 | Combinatorics | 1+ | 🔵 Beginner |
 
 ---
