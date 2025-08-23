@@ -14,7 +14,7 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 
 | Metric | Value |
 |--------|-------|
-| **Total Problems Solved** | 69+ |
+| **Total Problems Solved** | 70+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
@@ -37,11 +37,12 @@ LeetCodeProblems/
 │   ├── 121. Best Time to Buy and Sell Stock.cs
 │   └── ... (26+ more solutions)
 │
-├── JavaScript/                   # JavaScript implementations (35 problems)
+├── JavaScript/                   # JavaScript implementations (36 problems)
 │   ├── 1. Two Sum.js
 │   ├── 2. Add Two Numbers.js
 │   ├── 3. Longest Substring Without Repeating Characters.js
 │   ├── 5. Longest Palindromic Substring.js
+│   ├── 6. Zigzag Conversion.js
 │   ├── 9. Palindrome Number.js
 │   ├── 14. Longest Common Prefix.js
 │   ├── 34. Find First and Last Position of Element in Sorted Array.js
@@ -95,6 +96,7 @@ LeetCodeProblems/
 | Two Sum | #1 | Easy | C#, JavaScript | Hash Table, Array |
 | Longest Substring Without Repeating Characters | #3 | Medium | JavaScript | Sliding Window, Hash Set |
 | Longest Palindromic Substring | #5 | Medium | JavaScript | Dynamic Programming, String |
+| Zigzag Conversion | #6 | Medium | JavaScript | String, Simulation |
 | Longest Common Prefix | #14 | Easy | C#, JavaScript | String Processing |
 | Remove Duplicates from Sorted Array | #26 | Easy | C# | Two Pointers |
 | Remove Element | #27 | Easy | C# | Two Pointers |
@@ -282,14 +284,14 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 46+ | 🟢 **67%** | Strong Foundation |
-| Medium | 23+ | 🟡 **33%** | Growing Expertise |
+| Easy | 46+ | 🟢 **66%** | Strong Foundation |
+| Medium | 24+ | 🟡 **34%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery
 | Topic | Problems Solved | Proficiency |
 |-------|----------------|-------------|
-| Arrays & Strings | 40+ | 🟢 Advanced |
+| Arrays & Strings | 41+ | 🟢 Advanced |
 | Binary Trees | 8+ | 🟢 Advanced |
 | Linked Lists | 4+ | 🟡 Intermediate |
 | Graph Theory | 1+ | 🔵 Beginner |
@@ -300,6 +302,7 @@ private void InorderHelper(TreeNode node, IList<int> result)
 | Sliding Window | 4+ | 🟡 Intermediate |
 | Binary Search | 3+ | 🟡 Intermediate |
 | Matrix Operations | 2+ | 🔵 Beginner |
+| String Manipulation | 5+ | 🟡 Intermediate |
 | Combinatorics | 1+ | 🔵 Beginner |
 
 ---
