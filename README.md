@@ -15,9 +15,11 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 | Metric | Value |
 |--------|-------|
 | **Total Problems Solved** | 70+ |
+| **Total Problems Solved** | 80+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
+| **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics, Bit Manipulation, Matrix Operations |
 | **Last Updated** | August 2025 |
 | **Difficulty Levels** | Easy (Primary Focus), Medium (Growing) |
 
@@ -72,6 +74,40 @@ LeetCodeProblems/
 │   ├── 1498. Number of Subsequences That Satisfy the Given Sum Condition.js
 │   ├── 2126. Destroying Asteroids.js
 │   ├── 2294. Partition Array Such That Maximum Difference Is K.js
+│   ├── 28. Find the Index of the First Occurrence in a String.js
+│   ├── 49. Group Anagrams.js
+│   ├── 53. Maximum Subarray.js
+│   ├── 54. Spiral Matrix.js
+│   ├── 55. Jump Game.js
+│   ├── 70. Climbing Stairs.js
+│   ├── 128. Longest Consecutive Sequence.js
+│   ├── 171. Excel Sheet Column Number.js
+│   ├── 190. Reverse Bits.js
+│   ├── 191. Number of 1 Bits.js
+│   ├── 202. Happy Number.js
+│   ├── 203. Remove Linked List Elements.js
+│   ├── 205. Isomorphic Strings.js
+│   ├── 206. Reverse Linked List.js
+│   ├── 215. Kth Largest Element in an Array.js
+│   ├── 238. Product of Array Except Self.js
+│   ├── 326. Power of Three.js
+│   ├── 342. Power of Four.js
+│   ├── 424. Longest Repeating Character Replacement.js
+│   ├── 438. Find All Anagrams in a String.js
+│   ├── 498. Diagonal Traverse.js
+│   ├── 682. Baseball Game.js
+│   ├── 697. Degree of an Array.js
+│   ├── 869. Reordered Power of 2.js
+│   ├── 875. Koko Eating Bananas.js
+│   ├── 917. Reverse Only Letters.js
+│   ├── 997. Find the Town Judge.js
+│   ├── 1013. Partition Array Into Three Parts With Equal Sum.js
+│   ├── 1277. Count Square Submatrices with All Ones.js
+│   ├── 1323. Maximum 69 Number.js
+│   ├── 1456. Maximum Number of Vowels in a Substring of Given Length.js
+│   ├── 1498. Number of Subsequences That Satisfy the Given Sum Condition.js
+│   ├── 2126. Destroying Asteroids.js
+│   ├── 2294. Partition Array Such That Maximum Difference Is K.js
 │   ├── 2787. Ways to Express an Integer as Sum of Powers.js
 │   └── 3195. Find the Minimum Area to Cover All Ones I.js
 │
@@ -100,6 +136,7 @@ LeetCodeProblems/
 | Longest Common Prefix | #14 | Easy | C#, JavaScript | String Processing |
 | Remove Duplicates from Sorted Array | #26 | Easy | C# | Two Pointers |
 | Remove Element | #27 | Easy | C# | Two Pointers |
+| Find the Index of the First Occurrence in a String | #28 | Easy | JavaScript | String, Search |
 | Find First and Last Position of Element in Sorted Array | #34 | Medium | JavaScript | Binary Search, Array |
 | Search Insert Position | #35 | Easy | C# | Binary Search |
 | Group Anagrams | #49 | Medium | JavaScript | Hash Map, String Sorting |
@@ -112,6 +149,11 @@ LeetCodeProblems/
 | Climbing Stairs | #70 | Easy | C#, JavaScript | Dynamic Programming |
 | Valid Palindrome | #125 | Easy | C# | Two Pointers, String |
 | Longest Consecutive Sequence | #128 | Medium | JavaScript | Hash Set, Array |
+| Excel Sheet Column Number | #171 | Easy | JavaScript | Math, String |
+| Reverse Bits | #190 | Easy | JavaScript | Bit Manipulation |
+| Number of 1 Bits | #191 | Easy | JavaScript | Bit Manipulation |
+| Isomorphic Strings | #205 | Easy | JavaScript | Hash Map, String |
+| Diagonal Traverse | #498 | Medium | JavaScript | Matrix, Simulation |
 | Kth Largest Element in an Array | #215 | Medium | JavaScript | Heap, Quick Select |
 | Product of Array Except Self | #238 | Medium | JavaScript | Prefix Product, Suffix Product, Array |
 | Power of Three | #326 | Easy | JavaScript | Math, Recursion |
@@ -153,6 +195,8 @@ LeetCodeProblems/
 | Merge Two Sorted Lists | #21 | Easy | C# | Merge, Recursion |
 | Linked List Cycle | #141 | Easy | C# | Floyd's Algorithm |
 | Intersection of Two Linked Lists | #160 | Easy | C# | Two Pointers |
+| Remove Linked List Elements | #203 | Easy | JavaScript | Linked List, Filtering |
+| Reverse Linked List | #206 | Easy | JavaScript | Linked List, Iteration |
 
 ### 🌐 Graph Theory & DFS/BFS
 | Problem | Number | Difficulty | Language | Key Concepts |
@@ -169,6 +213,7 @@ LeetCodeProblems/
 | Climbing Stairs | #70 | Easy | C# | Dynamic Programming |
 | Pascal's Triangle | #118 | Easy | C# | Array, Dynamic Programming |
 | Single Number | #136 | Easy | C# | Bit Manipulation, XOR |
+| Happy Number | #202 | Easy | JavaScript | Math, Set |
 
 ### 🎯 Greedy Algorithms
 | Problem | Type | Language | Key Concepts |
@@ -284,25 +329,26 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 46+ | 🟢 **66%** | Strong Foundation |
-| Medium | 24+ | 🟡 **34%** | Growing Expertise |
+| Easy | 54+ | 🟢 **68%** | Strong Foundation |
+| Medium | 26+ | 🟡 **32%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery
 | Topic | Problems Solved | Proficiency |
 |-------|----------------|-------------|
-| Arrays & Strings | 41+ | 🟢 Advanced |
+| Arrays & Strings | 48+ | 🟢 Advanced |
 | Binary Trees | 8+ | 🟢 Advanced |
-| Linked Lists | 4+ | 🟡 Intermediate |
+| Linked Lists | 6+ | 🟡 Intermediate |
 | Graph Theory | 1+ | 🔵 Beginner |
-| Hash Tables | 13+ | 🟢 Advanced |
+| Hash Tables | 15+ | 🟢 Advanced |
 | Dynamic Programming | 9+ | 🟡 Intermediate |
-| Mathematical | 10+ | 🟢 Advanced |
+| Mathematical | 12+ | 🟢 Advanced |
 | Greedy Algorithms | 7+ | 🟡 Intermediate |
 | Sliding Window | 4+ | 🟡 Intermediate |
 | Binary Search | 3+ | 🟡 Intermediate |
-| Matrix Operations | 2+ | 🔵 Beginner |
-| String Manipulation | 5+ | 🟡 Intermediate |
+| Matrix Operations | 4+ | � Intermediate |
+| Bit Manipulation | 3+ | 🟡 Intermediate |
+| String Manipulation | 6+ | 🟡 Intermediate |
 | Combinatorics | 1+ | 🔵 Beginner |
 
 ---
