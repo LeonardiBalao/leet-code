@@ -56,6 +56,13 @@ LeetCodeProblems/
 │   ├── 128. Longest Consecutive Sequence.js
 │   ├── 200. Number of Islands.js
 │   ├── 215. Kth Largest Element in an Array.js
+│   ├── 217. Contains Duplicate.js
+│   ├── 219. Contains Duplicate II.js
+│   ├── 222. Count Complete Tree Nodes.js
+│   ├── 225. Implement Stack using Queues.js
+│   ├── 226. Invert Binary Tree.js
+│   ├── 228. Summary Ranges.js
+│   ├── 231. Power of Two.js
 │   ├── 238. Product of Array Except Self.js
 │   ├── 326. Power of Three.js
 │   ├── 342. Power of Four.js
@@ -155,7 +162,11 @@ LeetCodeProblems/
 | Isomorphic Strings | #205 | Easy | JavaScript | Hash Map, String |
 | Diagonal Traverse | #498 | Medium | JavaScript | Matrix, Simulation |
 | Kth Largest Element in an Array | #215 | Medium | JavaScript | Heap, Quick Select |
+| Contains Duplicate | #217 | Easy | JavaScript | Hash Set, Array |
+| Contains Duplicate II | #219 | Easy | JavaScript | Hash Map, Sliding Window |
+| Summary Ranges | #228 | Easy | JavaScript | Array, Two Pointers |
 | Product of Array Except Self | #238 | Medium | JavaScript | Prefix Product, Suffix Product, Array |
+| Power of Two | #231 | Easy | JavaScript | Bit Manipulation, Math |
 | Power of Three | #326 | Easy | JavaScript | Math, Recursion |
 | Power of Four | #342 | Easy | JavaScript | Math, Bit Manipulation |
 | Longest Repeating Character Replacement | #424 | Medium | JavaScript | Sliding Window, Hash Map |
@@ -187,8 +198,14 @@ LeetCodeProblems/
 | Balanced Binary Tree | #110 | Easy | C# | DFS, Height Calculation |
 | Binary Tree Preorder Traversal | #144 | Easy | C# | Tree Traversal |
 | Binary Tree Postorder Traversal | #145 | Easy | C# | Tree Traversal |
+| Count Complete Tree Nodes | #222 | Medium | JavaScript | Binary Tree, BFS |
+| Invert Binary Tree | #226 | Easy | JavaScript | Binary Tree, DFS |
 
 ### 🔗 Linked Lists
+### 📚 Stacks & Queues
+| Problem | Number | Difficulty | Language | Key Concepts |
+|---------|--------|------------|----------|--------------|
+| Implement Stack using Queues | #225 | Easy | JavaScript | Stack, Queue, Simulation |
 | Problem | Number | Difficulty | Language | Key Concepts |
 |---------|--------|------------|----------|--------------|
 | Add Two Numbers | #2 | Medium | JavaScript | Linked List, Math |
