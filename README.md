@@ -70,6 +70,15 @@ LeetCodeProblems/
 │   ├── 243. Shortest Word Distance.js
 │   ├── 246. Strobogrammatic Number.js
 │   ├── 252. Meeting Rooms.js
+│   ├── 257. Binary Tree Paths.js
+│   ├── 258. Add Digits.js
+│   ├── 263. Ugly Number.js
+│   ├── 266. Palindrome Permutation.js
+│   ├── 268. Missing Number.js
+│   ├── 270. Closest Binary Search Tree Value.js
+│   ├── 278. First Bad Version.js
+│   ├── 283. Move Zeroes.js
+│   ├── 290. Word Pattern.js
 │   ├── 238. Product of Array Except Self.js
 │   ├── 326. Power of Three.js
 │   ├── 342. Power of Four.js
@@ -180,6 +189,15 @@ LeetCodeProblems/
 | Shortest Word Distance | #243 | Easy | JavaScript | Array, Two Pointers |
 | Strobogrammatic Number | #246 | Easy | JavaScript | String, Math |
 | Meeting Rooms | #252 | Easy | JavaScript | Sorting, Intervals |
+| Binary Tree Paths | #257 | Easy | JavaScript | DFS, Recursion |
+| Add Digits | #258 | Easy | JavaScript | Math, Digital Root |
+| Ugly Number | #263 | Easy | JavaScript | Math, Simulation |
+| Palindrome Permutation | #266 | Easy | JavaScript | Hash Map, String |
+| Missing Number | #268 | Easy | JavaScript | Math, XOR |
+| Closest Binary Search Tree Value | #270 | Easy | JavaScript | Binary Search, Tree |
+| First Bad Version | #278 | Easy | JavaScript | Binary Search |
+| Move Zeroes | #283 | Easy | JavaScript | Two Pointers, Array |
+| Word Pattern | #290 | Easy | JavaScript | Hash Map, String |
 | Power of Three | #326 | Easy | JavaScript | Math, Recursion |
 | Power of Four | #342 | Easy | JavaScript | Math, Bit Manipulation |
 | Longest Repeating Character Replacement | #424 | Medium | JavaScript | Sliding Window, Hash Map |
