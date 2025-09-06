@@ -3,7 +3,22 @@
 **A comprehensive collection of algorithmic problem solutions showcasing clean code practices and efficient algorithms.**
 
 [![Language](https://img.shields.io/badge/Language-C%23-239120.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![Language](https://img.shields.io/badge/Language-JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Language](https://img.shields.io/badge/Language-JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs| Arrays & Strings | 60+ | 🟢 Advanced |
+| Binary Trees | 11+ | 🟢 Advanced |
+| Linked Lists | 7+ | 🟡 Intermediate |
+| Stacks & Queues | 2+ | 🔵 Beginner |
+| Graph Theory | 1+ | 🔵 Beginner |
+| Hash Tables | 20+ | 🟢 Advanced |
+| Dynamic Programming | 10+ | 🟡 Intermediate |
+| Mathematical | 18+ | 🟢 Advanced |
+| Greedy Algorithms | 7+ | 🟡 Intermediate |
+| Sliding Window | 4+ | 🟡 Intermediate |
+| Binary Search | 5+ | 🟡 Intermediate |
+| Matrix Operations | 4+ | 🟡 Intermediate |
+| Bit Manipulation | 6+ | 🟡 Intermediate |
+| String Manipulation | 12+ | 🟡 Intermediate |
+| Game Theory | 1+ | 🔵 Beginner |
+| Combinatorics | 1+ | 🔵 Beginner |t)
 [![Problems Solved](https://img.shields.io/badge/Problems%20Solved-53+-brightgreen.svg)](#-problem-categories--solutions)
 
 Welcome to my LeetCode solutions repository! This project demonstrates my problem-solving skills, coding proficiency, and understanding of algorithms and data structures. Designed for technical interviews, code reviews, and educational reference.
@@ -15,7 +30,7 @@ Welcome to my LeetCode solutions repository! This project demonstrates my proble
 | Metric | Value |
 |--------|-------|
 | **Total Problems Solved** | 70+ |
-| **Total Problems Solved** | 80+ |
+| **Total Problems Solved** | 95+ |
 | **Primary Language** | C# (.NET 9.0) |
 | **Secondary Language** | JavaScript (ES6+) |
 | **Categories Covered** | Arrays, Strings, Trees, Linked Lists, Hash Tables, Stacks, Greedy Algorithms, Combinatorics |
@@ -39,7 +54,7 @@ LeetCodeProblems/
 │   ├── 121. Best Time to Buy and Sell Stock.cs
 │   └── ... (26+ more solutions)
 │
-├── JavaScript/                   # JavaScript implementations (36 problems)
+├── JavaScript/                   # JavaScript implementations (62 problems)
 │   ├── 1. Two Sum.js
 │   ├── 2. Add Two Numbers.js
 │   ├── 3. Longest Substring Without Repeating Characters.js
@@ -79,6 +94,9 @@ LeetCodeProblems/
 │   ├── 278. First Bad Version.js
 │   ├── 283. Move Zeroes.js
 │   ├── 290. Word Pattern.js
+│   ├── 292. Nim Game.js
+│   ├── 293. Flip Game.js
+│   ├── 303. Range Sum Query - Immutable.js
 │   ├── 238. Product of Array Except Self.js
 │   ├── 326. Power of Three.js
 │   ├── 342. Power of Four.js
@@ -198,6 +216,9 @@ LeetCodeProblems/
 | First Bad Version | #278 | Easy | JavaScript | Binary Search |
 | Move Zeroes | #283 | Easy | JavaScript | Two Pointers, Array |
 | Word Pattern | #290 | Easy | JavaScript | Hash Map, String |
+| Nim Game | #292 | Easy | JavaScript | Math, Game Theory |
+| Flip Game | #293 | Easy | JavaScript | String, Simulation |
+| Range Sum Query - Immutable | #303 | Easy | JavaScript | Prefix Sum, Array |
 | Power of Three | #326 | Easy | JavaScript | Math, Recursion |
 | Power of Four | #342 | Easy | JavaScript | Math, Bit Manipulation |
 | Longest Repeating Character Replacement | #424 | Medium | JavaScript | Sliding Window, Hash Map |
@@ -231,12 +252,10 @@ LeetCodeProblems/
 | Binary Tree Postorder Traversal | #145 | Easy | C# | Tree Traversal |
 | Count Complete Tree Nodes | #222 | Medium | JavaScript | Binary Tree, BFS |
 | Invert Binary Tree | #226 | Easy | JavaScript | Binary Tree, DFS |
+| Binary Tree Paths | #257 | Easy | JavaScript | DFS, Recursion |
+| Closest Binary Search Tree Value | #270 | Easy | JavaScript | Binary Search, Tree |
 
 ### 🔗 Linked Lists
-### 📚 Stacks & Queues
-| Problem | Number | Difficulty | Language | Key Concepts |
-|---------|--------|------------|----------|--------------|
-| Implement Stack using Queues | #225 | Easy | JavaScript | Stack, Queue, Simulation |
 | Problem | Number | Difficulty | Language | Key Concepts |
 |---------|--------|------------|----------|--------------|
 | Add Two Numbers | #2 | Medium | JavaScript | Linked List, Math |
@@ -245,6 +264,13 @@ LeetCodeProblems/
 | Intersection of Two Linked Lists | #160 | Easy | C# | Two Pointers |
 | Remove Linked List Elements | #203 | Easy | JavaScript | Linked List, Filtering |
 | Reverse Linked List | #206 | Easy | JavaScript | Linked List, Iteration |
+| Palindrome Linked List | #234 | Easy | JavaScript | Linked List, Two Pointers |
+
+### 📚 Stacks & Queues
+| Problem | Number | Difficulty | Language | Key Concepts |
+|---------|--------|------------|----------|--------------|
+| Implement Stack using Queues | #225 | Easy | JavaScript | Stack, Queue, Simulation |
+| Implement Queue using Stacks | #232 | Easy | JavaScript | Queue, Stack, Simulation |
 
 ### 🌐 Graph Theory & DFS/BFS
 | Problem | Number | Difficulty | Language | Key Concepts |
@@ -377,8 +403,8 @@ private void InorderHelper(TreeNode node, IList<int> result)
 ### By Difficulty Level
 | Difficulty | Count | Percentage | Status |
 |------------|-------|------------|---------|
-| Easy | 54+ | 🟢 **68%** | Strong Foundation |
-| Medium | 26+ | 🟡 **32%** | Growing Expertise |
+| Easy | 89+ | 🟢 **94%** | Strong Foundation |
+| Medium | 6+ | 🟡 **6%** | Growing Expertise |
 | Hard | 0 | 🔴 **0%** | Future Goal |
 
 ### By Topic Mastery

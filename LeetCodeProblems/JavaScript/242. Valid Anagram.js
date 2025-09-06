@@ -1,21 +1,25 @@
-var shortestDistance = function (wordsDict, word1, word2) {
-    let minDist = Infinity;
-    let idx1 = -1;
-    let idx2 = -1;
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+var isAnagram = function (s, t) {
+    if (s.length !== t.length) return false;
 
-    for (let i = 0; i < wordsDict.length; i++) {
-        if (wordsDict[i] === word1) {
-            idx1 = i;
-            if (idx2 !== -1) {
-                minDist = Math.min(minDist, Math.abs(idx1 - idx2));
-            }
-        } else if (wordsDict[i] === word2) {
-            idx2 = i;
-            if (idx1 !== -1) {
-                minDist = Math.min(minDist, Math.abs(idx1 - idx2));
-            }
-        }
+    const sMap = new Map();
+
+    // Build frequency map for s
+    for (let i = 0; i < s.length; i++) {
+        sMap.set(s[i], (sMap.get(s[i]) || 0) + 1);
     }
 
-    return minDist === Infinity ? -1 : minDist;
+    // Decrement frequencies based on t
+    for (let i = 0; i < t.length; i++) {
+        if (!sMap.has(t[i]) || sMap.get(t[i]) === 0) {
+            return false;
+        }
+        sMap.set(t[i], sMap.get(t[i]) - 1);
+    }
+
+    return true;
 };
