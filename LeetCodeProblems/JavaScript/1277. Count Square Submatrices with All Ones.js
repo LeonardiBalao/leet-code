@@ -20,11 +20,13 @@ function countSquares(matrix) {
         // - dp[i][j+1]: square size above
         // - dp[i+1][j]: square size to the left
         // - dp[i][j]: square size diagonally above-left
-        dp[i + 1][j + 1] = 1 + Math.min(
-          dp[i][j + 1], // Above
-          dp[i + 1][j], // Left
-          dp[i][j] // Diagonal
-        );
+        dp[i + 1][j + 1] =
+          1 +
+          Math.min(
+            dp[i][j + 1], // Above
+            dp[i + 1][j], // Left
+            dp[i][j] // Diagonal
+          );
         // Add the number of squares ending at this cell (e.g., a 2x2 square adds 2)
         totalSquares += dp[i + 1][j + 1];
       }

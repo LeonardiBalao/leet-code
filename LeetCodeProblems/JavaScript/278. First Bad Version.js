@@ -1,17 +1,17 @@
-var solution = function(isBadVersion) {
-    return function(n) {
-        let left = 1;
-        let right = n;
+var solution = function (isBadVersion) {
+  return function (n) {
+    let left = 1;
+    let right = n;
 
-        while (left < right) {
-            let mid = Math.floor((left + right) / 2);
-            if (isBadVersion(mid)) {
-                right = mid; // First bad version is at mid or before
-            } else {
-                left = mid + 1; // First bad version is after mid
-            }
-        }
+    while (left < right) {
+      let mid = Math.floor((left + right) / 2);
+      if (isBadVersion(mid)) {
+        right = mid; // First bad version is at mid or before
+      } else {
+        left = mid + 1; // First bad version is after mid
+      }
+    }
 
-        return left; // or right, since left === right
-    };
+    return left; // or right, since left === right
+  };
 };
